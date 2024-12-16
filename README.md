@@ -1,7 +1,8 @@
 # Responsi-PGWEB
 Website RiskOdyssey adalah platform geospasial interaktif yang bertujuan untuk meningkatkan kesadaran dan edukasi terkait mitigasi bencana.
 ![responsi zidni](https://github.com/user-attachments/assets/4fdfa32c-0aa2-42b3-abb9-228aa134a212)
-![Uploading Screenshot 2024-12-17 014540.png…]()
+![Screenshot 2024-12-17 015500](https://github.com/user-attachments/assets/6809367e-3b26-441d-b707-100fe7b13494)
+![Screenshot 2024-12-16 221646](https://github.com/user-attachments/assets/4d7ff422-a694-4288-a2b8-2077fd59ed25)
 ![Screenshot 2024-12-17 014921](https://github.com/user-attachments/assets/675adf4f-a81e-494c-b92e-2846786d7a59)
 ![Screenshot 2024-12-17 014940](https://github.com/user-attachments/assets/2dceb335-4088-41f0-bc49-535c69878aa4)
 ![Screenshot 2024-12-17 015005](https://github.com/user-attachments/assets/fbfe2f85-8291-47cf-ace4-edc91506e427)
