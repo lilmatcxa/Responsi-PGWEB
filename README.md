@@ -15,3 +15,5 @@ Website RiskOdyssey adalah platform geospasial interaktif yang bertujuan untuk m
 ![Screenshot 2024-12-17 015301](https://github.com/user-attachments/assets/2b253141-352f-4ef6-8fef-e16bb423467e)
 ![Screenshot 2024-12-17 015314](https://github.com/user-attachments/assets/845716c0-b3af-4887-b417-20aeb1cecc6f)
 ![Screenshot 2024-12-17 015347](https://github.com/user-attachments/assets/78148728-017b-498d-aad3-1ba065dc7709)
+![qrcode_150143735_4937ff6fadff455c872cbbe560adf6f7](https://github.com/user-attachments/assets/a063b3f6-e086-41c5-bb38-eca215afda82)
+
