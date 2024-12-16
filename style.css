@@ -1,0 +1,159 @@
+/* Global Styles */
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #46955d; 
+    color: #ffffff;
+}
+
+/* Navbar Styling */
+nav.navbar {
+    background-color: #144425; /* Cal Poly Pomona Green */
+    color: white;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #B5D984 !important; /* Yellow-Green */
+}
+
+.nav-link {
+    color: #B5D984 !important; /* Yellow-Green */
+}
+
+.navbar-toggler {
+    border-color: #B5D984; /* Yellow-Green */
+}
+
+/* Hero Section */
+.hero-section {
+    background-color: #46955d; /* May Green */
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 15px;
+    background-image: url('source/landing1.gif');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.hero-section h1 {
+    font-size: 4.5rem;
+    font-weight: bold;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+.hero-section p {
+    font-size: 1.5rem;
+    margin: 20px 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.btn-custom {
+    background-color: #B5D984; /* Yellow-Green */
+    color: white;
+    border: none;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    padding: 15px 30px;
+    font-size: 1.1rem;
+    border-radius: 30px;
+}
+
+.btn-custom:hover {
+    background-color: #82D1C6; /* Pearl Aqua */
+    transform: scale(1.1);
+}
+
+/* Features Section */
+.features {
+    padding: 60px 0;
+    background-color: #144425; /* Cal Poly Pomona Green */
+}
+
+.features .feature-item {
+    text-align: center;
+    margin-bottom: 30px;
+    animation: fadeInUp 1s ease-in-out;
+}
+
+.features .feature-item h4 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #B5D984; /* Yellow-Green */
+}
+
+.features .feature-item p {
+    font-size: 1.1rem;
+    color: #ccc;
+}
+
+.features i {
+    color: #B5D984; /* Yellow-Green */
+    margin-bottom: 15px;
+}
+
+/* Map Styling */
+#map {
+    height: 400px;
+    width: 100%;
+    border-radius: 15px;
+    margin-top: 50px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #144425; /* Cal Poly Pomona Green */
+    padding: 20px 0;
+    color: white;
+}
+
+/* Floating Button Style */
+.floating-btn {
+    position: absolute;
+    bottom: 20px; /* Mengatur tombol berada di bawah deskripsi */
+    left: 50%; /* Mengatur tombol agar berada di tengah */
+    transform: translateX(-50%); /* Menjaga tombol tetap terpusat */
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+    z-index: 10;
+}
+/* Animasi untuk Hover pada Floating Button */
+.floating-btn:hover {
+    transform: scale(1.1) rotate(15deg); /* Slight scale and rotate effect */
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Floating Button Positioning */
+.feature-item {
+    position: relative; /* Membuat ruang bagi tombol floating */
+    padding-bottom: 80px; /* Untuk memberi ruang bagi tombol */
+}
+
+/* Tooltip customizations */
+.tooltip-inner {
+    background-color: #007bff;
+}
+.tooltip-arrow {
+    border-top-color: #007bff;
+}

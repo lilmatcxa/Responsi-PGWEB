@@ -1,0 +1,125 @@
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Petualangan Virtual di RiskOdyssey untuk mitigasi bencana di Kawasan Rawan Bencana (KRB II)">
+    <title>Petualangan Virtual - RiskOdyssey</title>
+    <link rel="stylesheet" href="style_petualangan.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    
+    <!-- Preload dan Prefetch untuk Kinerja -->
+    <link rel="preload" href="petualangan.js" as="script">
+    <link rel="prefetch" href="https://unpkg.com/@splinetool/viewer@1.9.48/build/spline-viewer.js">
+</head>
+<body>
+    <!-- Splash Screen dengan Loader Responsif -->
+    <div id="splash-screen">
+        <div class="splash-content">
+            <h1>RiskOdyssey</h1>
+            <p>Menyiapkan petualangan...</p>
+            <div class="loader" aria-label="Memuat konten"></div>
+        </div>
+    </div>
+
+    <!-- Spline Viewer dengan Fallback Aksesibel -->
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.48/build/spline-viewer.js"></script>
+    <spline-viewer 
+        url="https://prod.spline.design/aMTS4VgcFaUn2CzF/scene.splinecode" 
+        aria-label="Visualisasi interaktif kawasan rawan bencana">
+        <p>Maaf, Spline Viewer tidak dapat dimuat. Silakan refresh halaman atau gunakan browser modern.</p>
+    </spline-viewer>
+
+    <!-- Header dengan Navigasi -->
+    <header>
+        <div class="header-content">
+            <h1>Petualangan Virtual</h1>
+            <nav aria-label="Navigasi Utama">
+                <ul>
+                    <li><a href="landing.html" aria-label="Halaman Beranda">Home</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Bagian Utama Petualangan -->
+    <main>
+        <section id="petualangan" class="hidden" aria-live="polite">
+            <div id="info-panel">
+                <h2>Selamat datang di Petualangan Virtual!</h2>
+                <p>Eksplorasi kawasan rawan bencana (KRB II) dan pelajari langkah-langkah mitigasi yang perlu dilakukan!</p>
+                <button 
+                    id="start-btn" 
+                    aria-label="Mulai Petualangan"
+                    role="button"
+                    tabindex="0">
+                    Mulai Petualangan
+                </button>
+            </div>
+        </section>
+
+        <section id="storyline" class="hidden" aria-live="polite">
+            <h2>Petualangan Cerita</h2>
+            <p id="story-text">Kamu adalah seorang relawan yang berada di kawasan rawan bencana. Apa langkah pertama yang akan kamu ambil?</p>
+            
+            <div class="initial-options options">
+                <button 
+                    id="option1" 
+                    aria-label="Lapor ke pusat bencana"
+                    role="button"
+                    tabindex="0">
+                    Lapor ke pusat bencana
+                </button>
+                <button 
+                    id="option2" 
+                    aria-label="Menyelamatkan warga di sekitar"
+                    role="button"
+                    tabindex="0">
+                    Menyelamatkan warga di sekitar
+                </button>
+            </div>
+
+            <div id="mitigation-steps" class="hidden">
+                <h3>Pilih langkah mitigasi yang ingin kamu lakukan:</h3>
+                <div class="options">
+                    <button 
+                        id="step1" 
+                        aria-label="Evakuasi warga"
+                        role="button"
+                        tabindex="0">
+                        Evakuasi warga
+                    </button>
+                    <button 
+                        id="step2" 
+                        aria-label="Menyediakan bantuan medis"
+                        role="button"
+                        tabindex="0">
+                        Menyediakan bantuan medis
+                    </button>
+                    <button 
+                        id="step3" 
+                        aria-label="Membuat jalur evakuasi"
+                        role="button"
+                        tabindex="0">
+                        Membuat jalur evakuasi
+                    </button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 RiskOdyssey. Semua hak dilindungi.</p>
+            <nav aria-label="Navigasi Footer">
+                <a href="#" aria-label="Kebijakan Privasi">Privasi</a> | 
+                <a href="#" aria-label="Syarat Penggunaan">Syarat</a>
+            </nav>
+        </div>
+    </footer>
+
+    <!-- Script -->
+    <script src="petualangan.js" defer></script>
+</body>
+</html>

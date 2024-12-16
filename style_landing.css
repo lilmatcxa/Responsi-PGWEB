@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(180deg, #ffffff, #e9ecef);
+}
+
+.navbar {
+    background-color: #092320;
+}
+
+.navbar .nav-link {
+    color: #BFB592 !important;
+}
+
+.hero-section {
+    text-align: center;
+    padding: 100px 0;
+    background-color: #CDCECA;
+    color: #092320;
+}
+
+.hero-section h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+}
+
+.features {
+    padding: 60px 0;
+}
+
+.features .feature-item {
+    text-align: center;
+}
+
+.features .feature-item i {
+    color: #092320;
+}
+
+.features .floating-btn {
+    background-color: #176853;
+    color: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: none;
+    margin-top: 20px;
+}
+
+.features .floating-btn:hover {
+    background-color: #54BA98;
+}
+
+#disaster-data {
+    margin-bottom: 50px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #092320;
+    color: #BFB592;
+    position: relative;
+}
